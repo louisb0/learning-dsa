@@ -1,2 +1,2 @@
 # learning-dsa
-Implementing data structures and algorithms in C
+Implementing data structures and algorithms
