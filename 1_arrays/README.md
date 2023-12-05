@@ -1,5 +1,7 @@
 # arrays
 
+**Note**: In our definition, an array has a fixed size. So, we do not shift elements at any point, meaning the operations are all O(1). [The implementation](./implementation/int_array.c) does differ from this as it was a bit more fun to write.
+
 * A contiguous memory space, containing a set number of bytes. Not extensible without reallocations.
 * The compiler can interpret the memory space in many different ways - walk in 8bit, 6bit, 32bit?
     * `addr(array) + sizeof(array_type)*index`
