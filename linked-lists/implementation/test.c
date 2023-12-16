@@ -1,16 +1,14 @@
 #include "test.h"
 #include "linked_list.h"
 #include <assert.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <stdio.h>
 
-// Helper Functions
 int compare_data(const void *a, const void *b, size_t size) {
   return memcmp(a, b, size) == 0;
 }
 
-// Test Functions
 void test_create_node() {
   int data = 10;
   Node *node = create_node(&data, sizeof(data));
